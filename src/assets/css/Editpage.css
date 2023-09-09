@@ -1,0 +1,103 @@
+.edit-page,.home-page, .writting-page, .manage-story, .reading-page, .story-page{
+	position: relative;
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.edit-header{
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 2px rgba(203, 203, 203, 0.25);
+	z-index: 10;
+}
+
+.small-text{
+	font-size: 18px;
+	color: #bebebe;
+}
+.image-placeholder {
+	position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+	height: 400px;
+	width: 300px;
+	background-color: #eee;
+	border: 1px solid #eee;
+	margin: 0 auto;
+	position: relative;
+    }
+.image-hover{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.image-cover-icon
+{
+	width: 100px;
+	height: 100px;
+}
+
+/* Form */
+.form{
+	font-size: 18px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-edit{
+	padding: 2% 5%;
+}
+.form-control{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+.name-form{
+	border-bottom: 1px solid #eee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.name-form h4{
+	font-size: 21px;
+	padding: 25px 18px 18px;
+}
+.edit-page .form label{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 9px;
+	position: relative;
+	top: 3px;
+	font-size: 21px;
+}
+.img-story{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+input, select{
+	width: 100%;
+    line-height: inherit;
+    padding: 6px 9px;
+    border: 1px solid #eee;
+    color: #6f6f6f;
+}
+textarea{
+
+
+width: 100%;
+height: 187px;
+padding: 3px 0 0 9px;
+border: 1px solid #eee;
+resize: none;
+}
+/* end form */

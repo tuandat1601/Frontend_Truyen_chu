@@ -1,0 +1,16 @@
+.chapter-name{
+	width: 100%;
+	text-align:center ;
+}
+/* .reading-page{
+	background-color: rgb(243 243 243);
+} */
+.read-container{
+	width: 60%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.nex-pre{
+	width: 100%;
+	justify-content: space-between;
+}
